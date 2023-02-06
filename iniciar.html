@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/estilos.css">
+  <title>Iniciar Sesión</title>
+</head>
+<body>
+  <header>
+    <div class="header-login">
+        <h1>Vehiculos Tave</h1>
+        <ul class="header-ul">
+            <li><a href="iniciar.html">Iniciar Sesión</a></li>
+            <li><a href="cuenta.html">Hazte Una Cuenta</a></li>
+        </ul>
+    </div>
+  <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+  <a class="navbar-brand" href="index.html">Vehiculos para todos </a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="motos.html">Motos</a>
+          </li>
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="autos.html">Autos</a>
+      </li> 
+    </ul>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</div>
+  </nav>
+  <section id="subastas">
+    <div class="titulo-subasta"> 
+      <h2>INICIAR SESIÓN</h2>
+    </div>  
+    <div class="subasta-div" id="subastas-div">
+      <div class="subasta-card">
+        <div class="contenido">
+          <h2 class="titulo-subasta">INGRESE SUS DATOS</h2>
+          <div class="conteiner-nombre" style="display: flex; flex-direction: row;" >
+            <p>Nombre: </p>
+            <input type="text" class="input-conteiner" id="nombre_usuario" >
+          </div>
+          <div class="conteiner-mail" style="display: flex; flex-direction: row;" >
+            <p>Mail: </p>
+            <input type="text" class="input-conteiner" id="mail_usuario">
+          </div>
+          <div class="conteiner-telefono" style="display: flex; flex-direction: row;" >
+            <p>Contraseña: </p>
+            <input type="text" class="input-conteiner" id="telefono_usuario" >
+          </div>
+          <button class="btn-subastar" id="btn-subastar">INICIAR SESIÓN</button>
+        </div>
+    </div>
+  </section>
+</header>
+</body>
+</html>
